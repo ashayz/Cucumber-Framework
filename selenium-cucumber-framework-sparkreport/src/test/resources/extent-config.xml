@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>DARK</theme>
+
+        <documentTitle>SDET Automation Report</documentTitle>
+        <reportName>Regression Suite - Execution Results</reportName>
+
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <timelineEnabled>true</timelineEnabled>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+
+        <!-- Custom JS -->
+        <scripts>
+            <![CDATA[
+                document.body.style.zoom='90%';
+            ]]>
+        </scripts>
+
+        <!-- Custom CSS -->
+        <styles>
+            <![CDATA[
+                .badge-primary { background-color: #1e90ff; }
+                .badge-success { background-color: #28a745; }
+                .badge-danger { background-color: #dc3545; }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
